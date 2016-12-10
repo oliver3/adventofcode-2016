@@ -1,0 +1,23 @@
+{
+  "name": "adventofcode-2016",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliver3/adventofcode-2016.git"
+  },
+  "keywords": ["AdventOfCode", "Aoc", "TypeScript"],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliver3/adventofcode-2016/issues"
+  },
+  "homepage": "https://github.com/oliver3/adventofcode-2016#readme",
+  "dependencies": {
+    "@types/node": "0.0.2"
+  }
+}
