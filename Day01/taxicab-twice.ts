@@ -19,9 +19,12 @@ type Location = { x: number, y: number };
 
 const North = {dx: 0, dy: 1};
 
-function shortestPath(instructions: string): number {
+function findDoubleLocation(instructions: string): number {
+
     let location: Location = {x: 0, y: 0};
     let direction: Direction = North;
+
+    let visitedMap = {};
 
     instructions
         .split(', ')
@@ -48,8 +51,18 @@ function shortestPath(instructions: string): number {
     }
 
     function move(steps: number) {
+        if (direction.dx !== 0) {
+            for (let x=location.x; x<)
+        } else if (direction.dy !== 0) {
+
+        }
         location.x += steps * direction.dx;
         location.y += steps * direction.dy;
+    }
+
+    function visit(x: number, y: number): number {
+        const key = `(${x};${y})`;
+        return visitedMap[key] = (visitedMap[key] || 0) + 1;
     }
 
 }
